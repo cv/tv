@@ -1,6 +1,6 @@
-# Tv
+# TV
 
-TODO: Write a gem description
+Play back VCR cassette files, and make sure they reflect the correct interactions between systems.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO
 
 ## Contributing
 
