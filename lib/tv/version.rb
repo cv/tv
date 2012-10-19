@@ -1,3 +1,3 @@
-module Tv
+module TV
   VERSION = "0.0.1"
 end

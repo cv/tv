@@ -5,7 +5,7 @@ require 'tv/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "tv"
-  gem.version       = Tv::VERSION
+  gem.version       = TV::VERSION
   gem.authors       = ['Carlos Villela']
   gem.email         = ['cv@lixo.org']
   gem.description   = %q{Load and replay VCR cassettes with ease}
