@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://zombo.com/
+    body: ''
+    headers:
+      User-Agent: curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8r zlib/1.2.5
+      Host: zombo.com
+      Accept: '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date: 'Fri, 19 Oct 2012 20:56:43 GMT'
+      Server: 'Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.7a mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 PHP/5.2.14'
+      Last-Modified: 'Tue, 23 Apr 2002 05:19:28 GMT'
+      ETag: '"b2013c-2f6-f5f17800"'
+      Accept-Ranges: 'bytes'
+      Content-Length: '758'
+      Content-Type: 'text/html'
+    body: !binary |-
+      PGh0bWw+CjxoZWFkPgo8dGl0bGU+Wk9NQk88L3RpdGxlPgo8bWV0YSBodHRw
+      LWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hh
+      cnNldD1pc28tODg1OS0xIj4KPCEtLVBsZWFzZSBWaXNpdCAxNWZvb3RzdGlj
+      ay5jb20gb3VyIG90aGVyIHdlYnNpdGUuIFRoYW5rWiAtLT4KPC9oZWFkPgoK
+      PGJvZHkgYmdjb2xvcj0iI0ZGRkZGRiI+CjxvYmplY3QgY2xhc3NpZD0iY2xz
+      aWQ6RDI3Q0RCNkUtQUU2RC0xMWNmLTk2QjgtNDQ0NTUzNTQwMDAwIgoKIGNv
+      ZGViYXNlPSJodHRwOi8vYWN0aXZlLm1hY3JvbWVkaWEuY29tL2ZsYXNoMi9j
+      YWJzL3N3Zmxhc2guY2FiI3ZlcnNpb249NCwwLDAsMCIKCiBpZD1pbnJvenhh
+      IHdpZHRoPTEwMCUgaGVpZ2h0PTEwMCU+CiAgPHBhcmFtIG5hbWU9bW92aWUg
+      dmFsdWU9IndlbGNvbWVuZXc2LnN3ZiI+CiAgPHBhcmFtIG5hbWU9cXVhbGl0
+      eSB2YWx1ZT1oaWdoPgogIDxwYXJhbSBuYW1lPWJnY29sb3IgdmFsdWU9I0ZG
+      RkZGRj4KICA8ZW1iZWQgc3JjPSJpbnJvenhhLnN3ZiIgcXVhbGl0eT1oaWdo
+      IGJnY29sb3I9I0ZGRkZGRiAgd2lkdGg9MTAwJSBoZWlnaHQ9MTAwJSB0eXBl
+      PSJhcHBsaWNhdGlvbi94LXNob2Nrd2F2ZS1mbGFzaCIgcGx1Z2luc3BhZ2U9
+      Imh0dHA6Ly93d3cubWFjcm9tZWRpYS5jb20vc2hvY2t3YXZlL2Rvd25sb2Fk
+      L2luZGV4LmNnaT9QMV9Qcm9kX1ZlcnNpb249U2hvY2t3YXZlRmxhc2giPgog
+      IDwvZW1iZWQ+IAo8L29iamVjdD4gCjwvYm9keT4KPC9odG1sPgo=
+    http_version: '1.1'
+  recorded_at: Tue, 01 Nov 2011 04:49:54 GMT
