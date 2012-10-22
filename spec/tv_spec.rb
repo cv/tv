@@ -8,7 +8,7 @@ describe TV do
       file
     end
 
-    it "plays back a #{File.basename(file, '.yml').gsub /_/, ' '}" do
+    it "plays back a #{File.basename(file, '.yml').gsub /_/, ' '} casette" do
       TV.play(file)
     end
 
