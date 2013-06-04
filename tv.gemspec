@@ -20,5 +20,5 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'faraday'
   gem.add_runtime_dependency 'cli'
 
-  gem.add_development_dependency 'rspec'
+  gem.add_runtime_dependency 'rspec'
 end
