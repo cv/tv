@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+$:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(__FILE__) + '/../lib')
+
+begin
+  require 'rspec'
+  require 'tv'
+rescue LoadError
+  require 'rubygems'
+  require 'rspec'
+  require 'tv'
+end
+
+# The dup is to keep ARGV intact, so that tools like ruby-debug can respawn.
+require 'tv/cli'
+TV::Cli.execute(ARGV.dup)
