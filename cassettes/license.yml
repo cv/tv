@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://github.com:443/cv/tv/blob/master/LICENSE.txt
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      server:
+      - GitHub.com
+      date:
+      - Tue, 04 Jun 2013 22:41:22 GMT
+      content-type:
+      - text/html
+      content-length:
+      - '264'
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: ! "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS
+        port</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The
+        plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    http_version: '1.1'
+  recorded_at: Tue, 04 Jun 2013 22:41:22 GMT
+recorded_with: VCR 2.5.0
